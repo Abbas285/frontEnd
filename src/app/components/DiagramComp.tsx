@@ -40,7 +40,7 @@ const Diagram = () => {
                         className="w-[32px] h-[32px] object-contain"
                     />
                     <MdLaptopChromebook size={22} color='#606067' />
-                    <SlOptionsVertical size={20} color='#606067' className='ml-6 
+                    <SlOptionsVertical size={16} color='#606067' className='ml-6 
                     cursor-pointer hover:scale-105 transition-all' />
                 </div>
             </div>
