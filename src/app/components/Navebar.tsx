@@ -32,7 +32,7 @@ const Navebar = () => {
                         </h1>
 
                     </div>
-                    <IoMdInformationCircleOutline size={24} />
+                    <IoMdInformationCircleOutline size={26} />
                 </div>
                 <Image
                     src={profileImage}
