@@ -1,9 +1,12 @@
 import React from 'react'
-import { HiOutlineHome } from "react-icons/hi";
-import { BsDatabase } from "react-icons/bs";
 import Image from 'next/image';
-import profileImage from "@/assets/naveBar/profileImage.png"
-import { IoMdInformationCircleOutline } from "react-icons/io";
+import {
+    HiOutlineHome,
+    BsDatabase,
+    IoMdInformationCircleOutline,
+    profileImage,
+
+} from "./assets"
 const Navebar = () => {
     return (
         <nav className='w-full  px-6 flex justify-between py-4 bg-[#ffffff] shadow-sm '>

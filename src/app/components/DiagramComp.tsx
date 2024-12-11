@@ -1,21 +1,22 @@
 "use client";
-
 import React, { useState, useEffect, useRef, MouseEvent, KeyboardEvent } from "react";
 import Image from "next/image";
-import { MdOutlineAccountTree, MdLaptopChromebook } from "react-icons/md";
-import { IoDocumentOutline } from "react-icons/io5";
-import { FaRegStar } from "react-icons/fa";
-import { CiEdit, CiImageOn } from "react-icons/ci";
-import { LuLayers } from "react-icons/lu";
-import { SlOptionsVertical } from "react-icons/sl";
-
-import shaireIccon from "@/assets/share.png"
-import generateSoureIccon from "@/assets/generateSource.png"
-import soucreIccon from "@/assets/source.png"
-import ImageIccon from "@/assets/imageIccon.png"
-import trashIccon from "@/assets/Trash.png"
-import exportIccon from "@/assets/export.png"
-import file from "@/assets/file.png";
+import {
+    MdOutlineAccountTree,
+    MdLaptopChromebook,
+    IoDocumentOutline,
+    FaRegStar,
+    CiEdit,
+    LuLayers,
+    SlOptionsVertical,
+    shaireIccon,
+    generateSoureIccon,
+    soucreIccon,
+    ImageIccon,
+    trashIccon,
+    exportIccon,
+    file
+} from "./assets"
 
 const Diagram: React.FC = () => {
     const [isOpen, setIsOpen] = useState<boolean>(false);

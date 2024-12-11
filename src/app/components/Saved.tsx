@@ -1,7 +1,6 @@
 import React from 'react'
-import Image from 'next/image'
-import { FaStar } from "react-icons/fa";
-import generationIcon from "@/assets/generation.svg"
+import { FaStar } from "./assets"
+
 
 const Saved = () => {
     return (

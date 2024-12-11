@@ -1,12 +1,14 @@
 import React from 'react'
 import Image from 'next/image'
-import file from "@/assets/file.png"
-import layoutCloseIccon from "@/assets/layoutCloseIccon.png"
-import generationIcon from "@/assets/generation.svg"
-import wireframes from "@/assets/wireframes.png"
-import { CiMobile2 } from "react-icons/ci";
-import { MdLaptopChromebook } from "react-icons/md";
-import generateWhiteIcon from "@/assets/generateWhiteIcon.png"
+import {
+    MdLaptopChromebook,
+    CiMobile2,
+    file,
+    layoutCloseIccon,
+    generationIcon,
+    generateWhiteIcon,
+    wireframes,
+} from "./assets"
 const Generation = () => {
     return (
         <div className="w-full flex justify-start items-center">
