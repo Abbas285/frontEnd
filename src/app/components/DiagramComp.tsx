@@ -94,7 +94,7 @@ const Diagram: React.FC = () => {
                     <div className="flex items-center gap-3">
                         <FaRegStar size={16} />
                         <h2 className="text-xs font-medium text-[#48484D]">Save & Retrieve Figma</h2>
-                        <button className="flex gap-4 items-center cursor-pointer">
+                        <button className="flex gap-2 items-center cursor-pointer ml-3">
                             <CiEdit size={20} />
                             <h2 className="text-xs font-medium text-[#48484D]">Edit</h2>
                         </button>
@@ -107,7 +107,7 @@ const Diagram: React.FC = () => {
                                 aria-expanded={isOpen}
                                 className="ml-6 cursor-pointer hover:scale-105 transition-all"
                             >
-                                <SlOptionsVertical size={16} color="#606067" />
+                                <SlOptionsVertical size={12} color="#606067" />
                             </button>
 
                             {isOpen && (
