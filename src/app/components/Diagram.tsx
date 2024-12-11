@@ -1,8 +1,25 @@
 import React from 'react'
-
+import { MdOutlineAccountTree } from "react-icons/md";
+import { IoDocumentOutline } from "react-icons/io5";
 const Diagram = () => {
     return (
         <div className="min-h-screen bg-gray-100 flex flex-col items-center p-6">
+            <div className='flex gap-5 items-center justify-between px-2 py-2 mb-6 bg-white rounded-full'>
+                <div className='flex gap-2 cursor-pointer hover:scale-105 transition-all px-4 py-2'>
+                    <MdOutlineAccountTree size={24} color='#606067' className='font-bold' />
+                    <h3 className="text-base font-semibold text-[#606067] ">
+                        Diagrams
+                    </h3>
+                </div>
+                <div className='flex gap-2 items-center justify-between shadow-lg rounded-full
+                     px-4 py-2 cursor-pointer hover:scale-105 transition-all'>
+                    <IoDocumentOutline color='#3F20FB' size={24} />
+                    <h3 className="text-base font-semibold text-[#3F20FB]"> Screens
+                    </h3>
+                </div>
+
+
+            </div>
 
             <div className="w-full max-w-4xl flex justify-between items-center bg-white shadow-sm rounded-md px-4 py-2 mb-6">
                 <h2 className="text-lg font-medium text-gray-800">Generation 1</h2>
