@@ -7,7 +7,8 @@ import generationIcon from "@/assets/generation.svg"
 const Generation = () => {
     return (
         <div className="w-full flex justify-start items-center">
-            <div className="flex items-center  px-4 py-2 bg-white rounded-full border shadow-md cursor-pointer hover:scale-105 transition-all">
+            <div className="flex items-center  px-4 py-2 bg-white rounded-full border
+             shadow-md cursor-pointer hover:scale-105 transition-all">
                 <div className='flex gap-2 items-center justify-between'>
                     <Image
                         src={generationIcon}
