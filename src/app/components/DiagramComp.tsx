@@ -37,7 +37,7 @@ const Diagram = () => {
                         width={500}
                         height={500}
                         quality={100}
-                        className="w-[32px] h-[32px] object-contain"
+                        className="w-[22px] h-[22px] object-contain"
                     />
                     <MdLaptopChromebook size={22} color='#606067' />
                     <SlOptionsVertical size={16} color='#606067' className='ml-6 
