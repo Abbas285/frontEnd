@@ -25,7 +25,7 @@ const Diagram = () => {
                     <h3 className="text-base font-semibold text-[#3F20FB]"> Screens
                     </h3>
                 </div>
-                |
+
 
             </div>
             <div className='w-full rounded-full bg-[#E6E6E6] flex justify-start p-3 mb-2'>
