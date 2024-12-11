@@ -27,7 +27,7 @@ const Navebar = () => {
                         <h1 className='text-[#7F6AFC] text-xl font-extrabold'>
                             70
                         </h1>
-                        <span className='text-[#48484d] px-2'>
+                        <span className='text-[#48484d] pr-2'>
                             /600 +
                         </span>
                         <h1 className='text-[#7F6AFC] text-xl font-extrabold'>
