@@ -1,7 +1,7 @@
 
 import React from 'react'
-import Diagram from './Diagram'
-import Generation from './Generation'
+import Diagram from './DiagramComp'
+import Generation from './GenerationComp'
 import Saved from './Saved'
 
 const Container = () => {

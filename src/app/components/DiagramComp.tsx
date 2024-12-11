@@ -1,6 +1,14 @@
 import React from 'react'
 import { MdOutlineAccountTree } from "react-icons/md";
 import { IoDocumentOutline } from "react-icons/io5";
+import file from "@/assets/file.png"
+import pc from "@/assets/pc.png"
+
+
+import { LuLayers } from "react-icons/lu";
+import { MdLaptopChromebook } from "react-icons/md";
+
+import { SlOptionsVertical } from "react-icons/sl";
 const Diagram = () => {
     return (
         <div className="min-h-screen bg-gray-100 flex flex-col items-center p-6">
@@ -17,11 +25,17 @@ const Diagram = () => {
                     <h3 className="text-base font-semibold text-[#3F20FB]"> Screens
                     </h3>
                 </div>
-
+                |
 
             </div>
+            <div className='w-full rounded-full bg-[#E6E6E6] flex justify-start p-3 mb-2'>
+                <div className='flex items-center gap-2'>
+                    <LuLayers color='#606067' />
+                    <h2 className="text-sm font-medium text-[#303034]">Generation 1</h2>
+                </div>
+            </div>
 
-            <div className="w-full max-w-4xl flex justify-between items-center bg-white shadow-sm rounded-md px-4 py-2 mb-6">
+            {/* <div className="w-full max-w-4xl flex justify-between items-center bg-white shadow-sm rounded-md px-4 py-2 mb-6">
                 <h2 className="text-lg font-medium text-gray-800">Generation 1</h2>
                 <div className="relative">
 
@@ -53,8 +67,7 @@ const Diagram = () => {
                         <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Delete forever</a>
                     </div>
                 </div>
-            </div>
-
+            </div> */}
 
             <div className="w-full max-w-4xl bg-white rounded-lg shadow-sm">
                 <div className="h-[calc(100vh-200px)] bg-gray-200 rounded-lg"></div>
