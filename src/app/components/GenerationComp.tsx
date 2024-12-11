@@ -20,8 +20,7 @@ const Generation = () => {
                     }`}
                 onClick={() => {
                     !toggle && setToggle(true)
-                }}
-            >
+                }}>
                 <div className='flex  items-center justify-between'>
                     <div className='flex gap-2 items-center'>
                         <Image
@@ -164,18 +163,9 @@ const Generation = () => {
 
                         </div>
                     </div>
-                }
+                }</div>
 
-
-            </div>
-
-        </div>
-
-
-
-
-
-    )
+        </div>)
 }
 
 export default Generation
