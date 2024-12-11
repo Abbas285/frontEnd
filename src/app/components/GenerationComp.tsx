@@ -15,7 +15,8 @@ const Generation = () => {
     return (
         <div className="w-full flex justify-start items-center">
             <div
-                className={`px-3 py-2 bg-white  border shadow-md cursor-pointer ${toggle ? "w-[80%] rounded-md " : "rounded-full hover:scale-105 transition-all"
+                className={`px-3 py-2
+                     bg-white  border shadow-md cursor-pointer ${toggle ? "w-[80%] rounded-md " : "rounded-full hover:scale-105 transition-all"
                     }`}
                 onClick={() => {
                     !toggle && setToggle(true)
