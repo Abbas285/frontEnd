@@ -6,7 +6,7 @@ import Saved from './Saved'
 
 const Container = () => {
     return (
-        <div className='w-full flex bg-[#f5f5f5] px-8 py-6'>
+        <div className='min-h-[calc(100vh-4rem)] w-full flex bg-[#f5f5f5] px-8 py-6'>
             <div className='w-1/3 '>
                 <Generation />
             </div>
