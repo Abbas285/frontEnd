@@ -3,12 +3,13 @@ import { MdOutlineAccountTree } from "react-icons/md";
 import { IoDocumentOutline } from "react-icons/io5";
 import file from "@/assets/file.png"
 import pc from "@/assets/pc.png"
-
+import { FiPlus } from "react-icons/fi";
 
 import { LuLayers } from "react-icons/lu";
 import { MdLaptopChromebook } from "react-icons/md";
 
 import { SlOptionsVertical } from "react-icons/sl";
+import Image from 'next/image';
 const Diagram = () => {
     return (
         <div className="min-h-screen bg-gray-100 flex flex-col items-center p-6">
@@ -25,13 +26,22 @@ const Diagram = () => {
                     <h3 className="text-base font-semibold text-[#3F20FB]"> Screens
                     </h3>
                 </div>
-
-
             </div>
+
             <div className='w-full rounded-full bg-[#E6E6E6] flex justify-start p-3 mb-2'>
-                <div className='flex items-center gap-2'>
-                    <LuLayers color='#606067' />
+                <div className='flex items-center gap-3'>
+                    <LuLayers color='#606067' size={22} />
                     <h2 className="text-sm font-medium text-[#303034]">Generation 1</h2>
+                    <Image
+                        src={file}
+                        alt="file"
+                        width={500}
+                        height={500}
+                        quality={100}
+                        className="w-[32px] h-[32px] object-contain"
+                    />
+                    <MdLaptopChromebook size={22} color='#606067' />
+                    <SlOptionsVertical size={20} color='#606067' className='ml-8 cursor-pointer hover:scale-105 transition-all' />
                 </div>
             </div>
 
@@ -73,8 +83,10 @@ const Diagram = () => {
                 <div className="h-[calc(100vh-200px)] bg-gray-200 rounded-lg"></div>
             </div>
 
-            <button className="mt-6 px-4 py-2 bg-indigo-500 text-white rounded-md hover:bg-indigo-600">
-                + New Section
+            <button className="mt-6 px-4 py-2 bg-[#ECE9FF] text-[#7F6AFC]
+            font-semibold text-base
+              w-full rounded-full cursor-pointer hover:scale-105 transition-all">
+                +  New Section
             </button>
         </div>
 
