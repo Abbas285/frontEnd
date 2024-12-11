@@ -2,9 +2,8 @@ import React from 'react'
 import { MdOutlineAccountTree } from "react-icons/md";
 import { IoDocumentOutline } from "react-icons/io5";
 import file from "@/assets/file.png"
-import pc from "@/assets/pc.png"
-import { FiPlus } from "react-icons/fi";
-
+import { FaRegStar } from "react-icons/fa";
+import { CiEdit } from "react-icons/ci";
 import { LuLayers } from "react-icons/lu";
 import { MdLaptopChromebook } from "react-icons/md";
 
@@ -46,12 +45,25 @@ const Diagram = () => {
                 </div>
             </div>
 
-            {/* <div className='w-full bg-[#dcdcde] border-dotted rounded border-[##524d4d] border-[2px] px-7'>
-               
-            </div> */}
-            <div className="w-full max-w-4xl bg-white rounded-lg shadow-sm">
-                <div className="h-[calc(100vh-200px)] bg-gray-200 rounded-lg"></div>
+            <div className='w-full  border-dotted rounded border-[##524d4d] border-[2px] px-7 '>
+                <div className='w-full flex justify-end py-3 '>
+                    <div className='flex items-center gap-3'>
+                        <FaRegStar size={16} />
+                        <h2 className="text-xs font-medium text-[#48484D]">Save & Retrieve Figma</h2>
+                        <button className='flex gap-4 items-center cursor-pointer'>
+                            <CiEdit size={20} />
+                            <h2 className="text-xs font-medium text-[#48484D]">Edit</h2>
+
+                        </button>
+                        <SlOptionsVertical size={16} color='#606067' className=' 
+                    cursor-pointer hover:scale-105 transition-all' />
+                    </div>
+                </div>
+                <div className='w-full bg-[#c0c0c0] min-h-[788px] rounded mb-7'>
+
+                </div>
             </div>
+
 
             <button className="mt-6 px-4 py-2 bg-[#ECE9FF] text-[#7F6AFC]
             font-semibold text-base
