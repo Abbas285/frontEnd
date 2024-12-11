@@ -2,7 +2,7 @@ import React from 'react'
 import { HiOutlineHome } from "react-icons/hi";
 import { BsDatabase } from "react-icons/bs";
 import Image from 'next/image';
-import profileImage from "@/assets/naveBar/profileImage.svg"
+import profileImage from "@/assets/naveBar/profileImage.png"
 import { IoMdInformationCircleOutline } from "react-icons/io";
 const Navebar = () => {
     return (
@@ -40,7 +40,7 @@ const Navebar = () => {
                     width={500}
                     height={500}
                     quality={100}
-                    className=" w-[32px] h-[32px]"
+                    className=" w-[32px] h-[32px] object-contain object-center"
                 />
 
 
