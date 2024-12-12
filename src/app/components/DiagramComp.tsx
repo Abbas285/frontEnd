@@ -51,15 +51,15 @@ const Diagram: React.FC = () => {
     }, []);
 
     return (
-        <div className="min-h-screen bg-gray-100 flex flex-col items-center p-6">
+        <div className="min-h-screen bg-gray-100 flex flex-col items-center ">
             {/* Top navigation */}
-            <div className="flex gap-5 items-center justify-between px-2 py-2 mb-6 bg-white rounded-full shadow-md">
-                <div className="flex gap-2 items-center px-4 py-2 rounded-full 
+            <div className="flex gap-5 items-center justify-between px-3 py-2 mb-6 bg-white rounded-full shadow-md">
+                <div className="flex gap-2 items-center px-4 py-1 rounded-full 
                 cursor-pointer hover:shadow-lg hover:scale-105 transition-all hover:text-[#3F20FB] text-[#606067]">
                     <MdOutlineAccountTree size={24} />
                     <h3 className="text-base font-semibold ">Diagrams</h3>
                 </div>
-                <div className="flex gap-2 items-center px-4 py-2 rounded-full 
+                <div className="flex gap-2 items-center px-4 py-1 rounded-full 
                 cursor-pointer hover:shadow-lg hover:scale-105 transition-all hover:text-[#3F20FB] text-[#606067]">
                     <IoDocumentOutline size={24} />
                     <h3 className="text-base font-semibold ">Screens</h3>
