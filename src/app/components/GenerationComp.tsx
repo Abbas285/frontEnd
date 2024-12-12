@@ -13,10 +13,10 @@ import {
 const Generation = () => {
     const [toggle, setToggle] = useState(false);
     return (
-        <div className="w-full flex justify-start items-center">
+        <div className="w-full flex justify-start items-center pb-8 lg:pb-0">
             <div
                 className={`px-3 py-2
-                     bg-white  border shadow-md cursor-pointer ${toggle ? "w-[80%] rounded-md " : "rounded-full hover:scale-105 transition-all"
+                     bg-white  border shadow-md cursor-pointer ${toggle ? "lg:w-[80%] w-full rounded-md " : "rounded-full hover:scale-105 transition-all"
                     }`}
                 onClick={() => {
                     !toggle && setToggle(true)
